@@ -4,59 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡️</text></svg>">
+    <style>
+        :root {
+            --primary-bg: #f9fafb;
+            --primary-text: #1f2937;
+            --accent-color: #3b82f6;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-bg: #1f2937;
+                --primary-text: #f9fafb;
+                --accent-color: #60a5fa;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0; padding: 0;
+            background-color: var(--primary-bg);
+            color: var(--primary-text);
+            display: flex; flex-direction: column; min-height: 100vh;
+            align-items: center; justify-content: center;
+        }
+        .container {
+            max-width: 800px; padding: 2rem;
+            background: var(--primary-bg);
+            text-align: center;
+        }
+        h1 { font-size: 2.5em; margin-bottom: 0.5em; }
+        p { font-size: 1.1em; margin-bottom: 1.5em; }
+        .button {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.2s;
+        }
+        .button:hover { background-color: #2563eb; }
+        footer { margin-top: 2rem; font-size: 0.9em; opacity: 0.7; }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Your Project Name</h1>
-        <p>A concise and compelling tagline for your product or service.</p>
-    </header>
-
-    <section id="hero">
-        <img src="/placeholder-image.jpg" alt="Hero Image" class="hero-image">
-        <h2>Headline that grabs attention</h2>
-        <p>Short, punchy description of what you offer or what problem you solve. Highlight a key benefit.</p>
-        <a href="#contact" class="button">Get Started Today</a>
-    </section>
-
-    <section id="features">
-        <h2>Why Choose Us?</h2>
-        <div class="feature-grid">
-            <div class="feature-item">
-                <h3>Feature 1</h3>
-                <p>Benefit of Feature 1 explained concisely.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Feature 2</h3>
-                <p>Benefit of Feature 2 explained concisely.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Feature 3</h3>
-                <p>Benefit of Feature 3 explained concisely.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="call-to-action">
-        <h2>Ready to Launch?</h2>
-        <p>Don't miss out! Take the next step to achieve your goals.</p>
-        <a href="#contact" class="button secondary">Learn More</a>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit" class="button">Send Message</button>
-        </form>
-    </section>
-
+    <div class="container">
+        <h1>Your Idea, Online. Fast.</h1>
+        <p>Professionally designed, responsive one-page landing pages for your product, service, or portfolio.</p>
+        <a href="#" class="button">Get Your Landing Page</a>
+    </div>
     <footer>
-        <p>&copy; 2023 Your Project Name. All rights reserved.</p>
+        © 2024 Apex Digital. Simple. Effective. Online.
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
