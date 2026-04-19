@@ -1,17 +1,13 @@
 # Apex Landing Page
 
-**Your Idea, Online. Fast.**
+**Your Instant Online Presence.**
 
-Welcome to Apex Landing Page – where we turn your vision into a professional, responsive, one-page landing page, quickly and effectively. Perfect for startups, freelancers, or anyone needing a swift, impactful online presence.
+We offer professionally designed, responsive, one-page landing pages built with HTML/CSS/JS and deployed on Vercel. Perfect for new products, services, personal portfolios, or quick lead capture.
 
-## What We Offer
+**Features:**
+- Customizable design (text, images, brand colors)
+- Modern HTML/CSS/JS code
+- Vercel deployment included (free tier)
+- Code snippets delivered
 
-*   **Custom 1-Page Design:** Tailored to your brand and goals.
-*   **Fully Responsive:** Looks great on any device.
-*   **Tech Stack:** Built with modern HTML, CSS, and vanilla JS.
-*   **Vercel Hosting:** Seamless deployment to Vercel (free tier).
-*   **Code Delivery:** You own the code snippets and GitHub repository for version control.
-
-## Get Started
-
-Ready to launch your online presence? Contact us to discuss your project and let's bring your idea to life!
+Get your project online quickly and effectively.
