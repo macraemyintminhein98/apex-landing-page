@@ -3,52 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apex Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>APEX Landing Page</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        .container { max-width: 900px; margin: 20px auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        header { text-align: center; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        h1 { color: #007bff; }
+        .hero { text-align: center; padding: 40px 0; }
+        .hero h2 { font-size: 2.5em; margin-bottom: 10px; }
+        .hero p { font-size: 1.2em; color: #666; margin-bottom: 30px; }
+        .cta-button { display: inline-block; background-color: #007bff; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-size: 1.1em; transition: background-color 0.3s ease; }
+        .cta-button:hover { background-color: #0056b3; }
+        .features { display: flex; justify-content: space-around; padding: 40px 0; flex-wrap: wrap; text-align: center; }
+        .feature-item { width: 30%; min-width: 250px; margin-bottom: 20px; }
+        .feature-item h3 { color: #007bff; margin-bottom: 10px; }
+        footer { text-align: center; padding: 20px; border-top: 1px solid #eee; margin-top: 20px; color: #777; font-size: 0.9em; }
+        @media (max-width: 768px) { .feature-item { width: 100%; } }
+    </style>
 </head>
 <body>
-    <header class="hero">
-        <h1>Your Idea. One Page. Instant Impact.</h1>
-        <p>Professionally designed landing pages for your success.</p>
-        <a href="#contact" class="btn">Get Started</a>
-    </header>
-
-    <section id="features" class="container">
-        <h2>What We Offer</h2>
-        <div class="feature-grid">
+    <div class="container">
+        <header>
+            <h1>APEX Landing Page Solutions</h1>
+        </header>
+        <div class="hero">
+            <h2>Stunning One-Page Websites, Delivered Fast.</h2>
+            <p>Launch your product, service, or portfolio with a professional and responsive landing page.</p>
+            <a href="#contact" class="cta-button">Get Your Page Now!</a>
+        </div>
+        <div class="features">
             <div class="feature-item">
-                <h3>Fast Deployment</h3>
-                <p>Launch your page quickly on Vercel.</p>
+                <h3>Custom Design</h3>
+                <p>Tailored to your brand, ensuring a unique online presence.</p>
             </div>
             <div class="feature-item">
-                <h3>Responsive Design</h3>
-                <p>Looks great on any device.</p>
+                <h3>Responsive & Fast</h3>
+                <p>Looks great on any device, optimized for speed and performance.</p>
             </div>
             <div class="feature-item">
-                <h3>Customizable</h3>
-                <p>Your brand, your content.</p>
+                <h3>Vercel Deployment</h3>
+                <p>Hassle-free hosting on Vercel's reliable global network.</p>
             </div>
         </div>
-    </section>
-
-    <section id="portfolio" class="container">
-        <h2>Our Work</h2>
-        <div class="portfolio-grid">
-            <div class="portfolio-item">Product Showcase</div>
-            <div class="portfolio-item">Lead Capture</div>
-            <div class="portfolio-item">Personal Portfolio</div>
-        </div>
-    </section>
-
-    <section id="contact" class="container">
-        <h2>Ready to Launch?</h2>
-        <p>Let's create your perfect landing page.</p>
-        <a href="mailto:hello@apex.com" class="btn">Contact Us</a>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Apex Landing Page. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+        <section id="contact" style="text-align: center; padding: 40px 0;">
+          <h2>Ready to Launch?</h2>
+          <p>Contact us for a quick quote and get your page live!</p>
+          <a href="mailto:info@apex-solutions.com" class="cta-button">Contact Us</a>
+        </section>
+        <footer>
+            &copy; 2024 APEX Solutions. All rights reserved.
+        </footer>
+    </div>
 </body>
 </html>
