@@ -3,39 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APEX Landing Pages</title>
+    <title>Apex Landing Pages</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>APEX Landing Pages</h1>
+        <h1>Apex Landing Pages</h1>
         <p>Your one-page online presence, fast.</p>
+        <a href="#contact" class="button">Get Started</a>
     </header>
-    <main>
-        <section class="hero">
-            <h2>Launch Your Idea with a Stunning Landing Page</h2>
-            <p>Professionally designed, responsive, and deployed on Vercel.</p>
-            <a href="#services" class="button">See Our Services</a>
-        </section>
-        <section id="services" class="services">
-            <h3>What We Offer</h3>
-            <ul>
-                <li>Custom 1-Page Design</li>
-                <li>Responsive for All Devices</li>
-                <li>HTML/CSS/JS Powered</li>
-                <li>Vercel Deployment</li>
-                <li>Brand Color & Text Customization</li>
-            </ul>
-        </section>
-        <section class="cta">
-            <h2>Ready to Get Started?</h2>
-            <p>Perfect for startups, freelancers, and small businesses.</p>
-            <a href="#contact" class="button primary">Get Your Landing Page Now</a>
-        </section>
-    </main>
-    <footer id="contact">
-        <p>&copy; 2024 APEX Landing Pages. Contact us for a quote!</p>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>Responsive Design</h3>
+                <p>Looks great on any device.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Custom Content</h3>
+                <p>Your text, images, and brand colors.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Fast Deployment</h3>
+                <p>Hosted on Vercel for speed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Our Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">Product Launch</div>
+            <div class="portfolio-item">Service Showcase</div>
+            <div class="portfolio-item">Personal Portfolio</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Ready for yours?</h2>
+        <p>Contact us to get your custom landing page.</p>
+        <form>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Tell us about your project..."></textarea>
+            <button type="submit" class="button">Send Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Apex Landing Pages. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
