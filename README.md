@@ -1,14 +1,12 @@
-# Apex Landing Pages
+# Apex Landing Page Design Service
 
-Your fast, professionally designed one-page online presence.
+**Your Idea. One Page. Instant Impact.**
 
-We build responsive single-page landing sites for new products, services, or personal portfolios, deployed swiftly on Vercel.
+We design and deploy professional, responsive one-page landing pages for new products, services, or personal portfolios. 
 
-**Features:**
-*  Customizable content, images, and brand colors.
-*  Responsive design for all devices.
-*  Vercel deployment for optimal performance.
+**What's included:**
+* Custom text, images & brand colors.
+* HTML/CSS/JS development.
+* Rapid deployment on Vercel (free tier).
 
-**Price:** $49.99 per page.
-
-**Get Started:** Contact us to discuss your project and get your landing page live!
+Ideal for startups, freelancers, and small businesses seeking a swift, impactful online presence.
